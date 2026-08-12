@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurin Gloor — Portfolio & Profil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">Laurin Gloor</a>
+            <ul class="nav-links">
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#skills">Kenntnisse</a></li>
+                <li><a href="#education">Ausbildung</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero reveal">
+            <div class="hero-text">
+                <span class="tag">Informatikmittelschule Basel (IMS)</span>
+                <h1>Auf der Suche nach einem Informatik-Praktikum 2027/28.</h1>
+                <p>Hallo! Ich bin Laurin Gloor, Informatikschüler an der IMS Basel. Ich fokussiere mich auf Softwareentwicklung, moderne Webtechnologien und Systemverständnis.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Kontaktieren</a>
+                    <a href="#projects" class="btn btn-secondary">Projekte ansehen</a>
+                </div>
+            </div>
+            <img src="dein-bewerbungsfoto.jpg" alt="Laurin Gloor" class="hero-avatar">
+        </section>
+
+        <!-- About / Profile -->
+        <section id="about" class="reveal">
+            <h2 class="section-title">Profil & Ziel</h2>
+            <div class="card">
+                <h3>Praktikumsstelle 2027/2028 (Langzeitpraktikum IMS)</h3>
+                <p>Als Schüler der Informatikmittelschule Basel bereite ich mich auf mein einjähriges Betriebspraktikum vor. Ich zeichne mich durch eine strukturierte Arbeitsweise, hohes technisches Interesse (Open-Source, Linux, Hardware) und starke Problemlösungskompetenz aus.</p>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section id="projects" class="reveal">
+            <h2 class="section-title">Ausgewählte Projekte</h2>
+            
+            <div class="projects-container">
+                
+                <!-- Projekt 1: SPA Todo App -->
+                <div class="card project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3>Single Page Todo Application (Eisenhower-Prinzip)</h3>
+                            <p class="card-meta">Informatikprojekt (IDAF) · IMS Basel</p>
+                        </div>
+                        <a href="https://github.com/frostigerfrosty/SPA-Projekt" target="_blank" class="btn btn-secondary btn-sm">GitHub Repository ↗</a>
+                    </div>
+
+                    <p style="margin-bottom: 16px;">
+                        Eine interaktive Single Page Web-Anwendung zur Aufgabenverwaltung basierend auf der Eisenhower-Matrix. Ermöglicht dynamisches Hinzufügen, Filtern und Verwalten von Tasks ohne Neuladen der Seite.
+                    </p>
+
+                    <!-- Projektbilder aus dem Ordner fotos/ -->
+                    <div class="project-gallery">
+                        <div class="img-wrapper">
+                            <img src="fotos/bild1_Todo_SAP.png" alt="Task hinzufügen Ansicht">
+                            <span>Task erstellen</span>
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="fotos/bild2_todo_SPA.png" alt="Übersicht der Tasks">
+                            <span>Aufgabenübersicht</span>
+                        </div>
+                    </div>
+
+                    <div class="badge-container" style="margin-top: 20px;">
+                        <span class="badge">JavaScript (ES6+)</span>
+                        <span class="badge">HTML5</span>
+                        <span class="badge">CSS3</span>
+                        <span class="badge">Single Page Application</span>
+                        <span class="badge">DOM-Manipulation</span>
+                    </div>
+                </div>
+
+                <!-- Projekt 2: Bücherantiquariat -->
+                <div class="card project-card" style="margin-top: 32px;">
+                    <div class="project-header">
+                        <div>
+                            <h3>Bücherantiquariat — Webanwendung</h3>
+                            <p class="card-meta">Fullstack Webprojekt · PHP & MySQL</p>
+                        </div>
+                        <a href="https://github.com/frostigerfrosty/buecherantiquariat" target="_blank" class="btn btn-secondary btn-sm">GitHub Repository ↗</a>
+                    </div>
+
+                    <p style="margin-bottom: 16px;">
+                        Eine vollständige Webanwendung zur Verwaltung eines Bücherantiquariats. Sie kombiniert einen öffentlichen Bereich für Kunden mit einem geschützten Administrationsbereich für die Verwaltung von Büchern und Kundendaten.
+                    </p>
+
+                    <div class="project-details-grid">
+                        <div class="detail-box">
+                            <h4>Öffentlicher Bereich</h4>
+                            <ul>
+                                <li>Startseite & Firmeninformationen</li>
+                                <li>Buchkatalog mit allen Büchern</li>
+                                <li>Detailansicht einzelner Werke</li>
+                                <li>Über-uns & Kontaktseite</li>
+                            </ul>
+                        </div>
+                        <div class="detail-box">
+                            <h4>Administrationsbereich</h4>
+                            <ul>
+                                <li>Sicheres Admin-Login & Zugriffskontrolle</li>
+                                <li>Dashboard mit Kennzahlen</li>
+                                <li>CRUD-Verwaltung für Bücher & Kunden</li>
+                                <li>Passwortverwaltung</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="badge-container" style="margin-top: 20px;">
+                        <span class="badge">PHP</span>
+                        <span class="badge">MySQL</span>
+                        <span class="badge">HTML5</span>
+                        <span class="badge">CSS3</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">XAMPP</span>
+                        <span class="badge">CRUD / Auth</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="reveal">
+            <h2 class="section-title">Kenntnisse & Fähigkeiten</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>Programmiersprachen & Web</h3>
+                    <div class="badge-container" style="margin-top: 14px;">
+                        <span class="badge">Java</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">Python</span>
+                        <span class="badge">PHP</span>
+                        <span class="badge">HTML5</span>
+                        <span class="badge">CSS3</span>
+                        <span class="badge">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Systeme & Tools</h3>
+                    <div class="badge-container" style="margin-top: 14px;">
+                        <span class="badge">Linux / Arch (CachyOS)</span>
+                        <span class="badge">Windows 10 / 11</span>
+                        <span class="badge">Office 365</span>
+                        <span class="badge">MS Teams & Cloud</span>
+                        <span class="badge">Computerbau (Hardware)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-2" style="margin-top: 24px;">
+                <div class="card">
+                    <h3>Sprachen</h3>
+                    <ul style="list-style: none; line-height: 1.8; font-size: 0.95rem; color: #4b5563;">
+                        <li><strong>Deutsch:</strong> Muttersprache</li>
+                        <li><strong>Englisch:</strong> Fließend mündlich, gute Kenntnisse schriftlich</li>
+                        <li><strong>Französisch:</strong> Gute Kenntnisse — <strong>DELF B1 Diplomprüfung (2026)</strong></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Interessen & Engagement</h3>
+                    <p>Open-Source Technologien, Custom PC Builds, Strategie- & Videospiele, Kraftsport, Literatur.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Experience -->
+        <section id="education" class="reveal">
+            <h2 class="section-title">Bildungsweg & Erfahrung</h2>
+            
+            <div class="card" style="margin-bottom: 24px;">
+                <h3 style="margin-bottom: 16px;">Schulausbildung</h3>
+                <div class="timeline-item">
+                    <h4>Informatikmittelschule (IMS) Basel</h4>
+                    <p class="card-meta">2024 – Heute</p>
+                    <p>Fokus auf Informatik, Softwareentwicklung und Allgemeinbildung mit Ziel Berufsmaturität und Eidg. Fähigkeitszeugnis (EFZ).</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>Bezirksschule Rheinfelden</h4>
+                    <p class="card-meta">2021 – 2024</p>
+                    <p>Sekundarstufe I mit Ausrichtung auf weiterführende Schulen.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 style="margin-bottom: 16px;">Praktische Einblicke</h3>
+                <div class="timeline-item">
+                    <h4>Schnupperlehre Applikationsentwickler</h4>
+                    <p class="card-meta">Suxesiv AG, Rheinfelden (2023)</p>
+                    <p>3-tägige Schnupperlehre mit Einblicken in den Berufsalltag der modernen Softwareentwicklung.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="reveal">
+            <div class="contact-box">
+                <h2>Kontakt aufnehmen</h2>
+                <p style="color: var(--text-secondary);">Ich freue mich über Anfragen für Praktikumsstellen für das Schuljahr 2027/28.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <strong>E-Mail</strong>
+                        <a href="mailto:laurin.gloor@stud.edubs.ch" style="color: var(--accent); text-decoration: none;">laurin.gloor@stud.edubs.ch</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Telefon</strong>
+                        <span>079 395 87 89</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Wohnort</strong>
+                        <span>Wintersingerstrasse 54A, Schweiz</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Laurin Gloor — Online Portfolio & Profil</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
